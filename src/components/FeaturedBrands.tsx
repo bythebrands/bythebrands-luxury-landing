@@ -1,24 +1,32 @@
 const FeaturedBrands = () => {
   const categories = [
     {
-      name: "Fashion",
-      description: "Luxury apparel & accessories from premier fashion houses",
-      image: "gradient-from-slate-50-to-slate-100"
+      name: "Sneakers & Streetwear",
+      description: "Nike, Adidas, Jordan & exclusive drops",
+      icon: "👟",
+      brands: "500+ brands",
+      bgGradient: "from-slate-50 to-slate-100"
     },
     {
-      name: "Beauty",
-      description: "Premium skincare, makeup & fragrance collections",
-      image: "gradient-from-rose-50-to-rose-100"
+      name: "Beauty & Skincare", 
+      description: "Sephora, Ulta, premium beauty brands",
+      icon: "💄",
+      brands: "300+ brands",
+      bgGradient: "from-pink-50 to-pink-100"
     },
     {
-      name: "Technology",
-      description: "Cutting-edge devices & innovative tech solutions",
-      image: "gradient-from-blue-50-to-blue-100"
+      name: "Tech & Gadgets",
+      description: "Apple, Samsung, latest innovations",
+      icon: "📱",
+      brands: "150+ brands", 
+      bgGradient: "from-blue-50 to-blue-100"
     },
     {
-      name: "Lifestyle",
-      description: "Home, wellness & curated everyday essentials",
-      image: "gradient-from-amber-50-to-amber-100"
+      name: "Luxury & Fashion",
+      description: "Gucci, Chanel, designer collections",
+      icon: "👔",
+      brands: "200+ brands",
+      bgGradient: "from-amber-50 to-amber-100"
     }
   ];
 
@@ -28,10 +36,10 @@ const FeaturedBrands = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-luxury-text mb-6 tracking-tight">
-            Discover by <span className="font-medium">category</span>
+            Shop by <span className="font-medium">category</span>
           </h2>
           <p className="text-xl text-luxury-text-light leading-relaxed">
-            Explore carefully curated collections from the world's most respected brands
+            Curated collections from official brand stores, organized for easy shopping
           </p>
         </div>
 
@@ -40,23 +48,31 @@ const FeaturedBrands = () => {
           {categories.map((category, index) => (
             <div 
               key={category.name}
-              className="group cursor-pointer"
+              className="group cursor-pointer bg-white rounded-lg overflow-hidden shadow-luxury hover:shadow-premium transition-all duration-300 border border-luxury-border"
             >
-              <div className="relative overflow-hidden rounded-lg mb-6 aspect-square bg-gradient-to-br from-gray-50 to-gray-100 hover:shadow-premium transition-all duration-500">
-                <div className="absolute inset-0 bg-luxury-border opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl font-light text-luxury-text opacity-40 group-hover:opacity-60 transition-opacity duration-500">
-                    {category.name[0]}
-                  </span>
+              {/* Category Visual */}
+              <div className={`relative h-40 bg-gradient-to-br ${category.bgGradient} flex flex-col items-center justify-center group-hover:scale-105 transition-transform duration-300`}>
+                <div className="text-4xl mb-2">{category.icon}</div>
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-medium text-luxury-text">
+                  {category.brands}
                 </div>
               </div>
               
-              <h3 className="text-xl font-medium text-luxury-text mb-2 group-hover:text-primary transition-colors">
-                {category.name}
-              </h3>
-              <p className="text-luxury-text-light text-sm leading-relaxed">
-                {category.description}
-              </p>
+              {/* Content */}
+              <div className="p-6">
+                <h3 className="text-lg font-semibold text-luxury-text mb-2 group-hover:text-primary transition-colors">
+                  {category.name}
+                </h3>
+                <p className="text-luxury-text-light text-sm leading-relaxed mb-4">
+                  {category.description}
+                </p>
+                <div className="flex items-center text-primary font-medium text-sm group-hover:gap-2 transition-all">
+                  <span>Shop now</span>
+                  <svg className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
             </div>
           ))}
         </div>

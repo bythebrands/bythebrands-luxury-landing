@@ -38,16 +38,20 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Trust indicators */}
+          {/* Brand logos grid for authority bias */}
           <div className="mt-16 pt-8 border-t border-luxury-border">
-            <p className="text-sm text-luxury-text-light mb-4 uppercase tracking-wider">
-              Trusted by millions worldwide
+            <p className="text-sm text-luxury-text-light mb-6 uppercase tracking-wider text-center">
+              Shop from the world's most trusted brands
             </p>
-            <div className="flex items-center justify-center space-x-8 opacity-60">
-              <div className="w-20 h-8 bg-luxury-border rounded-sm"></div>
-              <div className="w-20 h-8 bg-luxury-border rounded-sm"></div>
-              <div className="w-20 h-8 bg-luxury-border rounded-sm"></div>
-              <div className="w-20 h-8 bg-luxury-border rounded-sm"></div>
+            <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 items-center justify-items-center opacity-60">
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Nike</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Apple</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Sephora</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Gucci</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Samsung</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Adidas</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Rolex</div>
+              <div className="h-8 flex items-center justify-center text-lg font-semibold text-luxury-text">Chanel</div>
             </div>
           </div>
         </div>
