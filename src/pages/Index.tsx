@@ -30,25 +30,25 @@ const Index = () => {
             <div>
               <h4 className="font-medium text-luxury-text mb-3">Shop</h4>
               <ul className="space-y-2 text-sm text-luxury-text-light">
-                <li><a href="#" className="hover:text-luxury-text transition-colors">All Brands</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Categories</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Today's Deals</a></li>
+                <li><a href="/brands" className="hover:text-luxury-text transition-colors">All Brands</a></li>
+                <li><a href="/categories" className="hover:text-luxury-text transition-colors">Categories</a></li>
+                <li><a href="/deals" className="hover:text-luxury-text transition-colors">Today's Deals</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-medium text-luxury-text mb-3">Company</h4>
               <ul className="space-y-2 text-sm text-luxury-text-light">
-                <li><a href="#" className="hover:text-luxury-text transition-colors">About</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Careers</a></li>
+                <li><a href="/about" className="hover:text-luxury-text transition-colors">About</a></li>
+                <li><a href="/contact" className="hover:text-luxury-text transition-colors">Contact</a></li>
+                <li><a href="/blog" className="hover:text-luxury-text transition-colors">Blog</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-medium text-luxury-text mb-3">Legal</h4>
               <ul className="space-y-2 text-sm text-luxury-text-light">
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Privacy</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Terms</a></li>
-                <li><a href="#" className="hover:text-luxury-text transition-colors">Security</a></li>
+                <li><a href="/privacy" className="hover:text-luxury-text transition-colors">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-luxury-text transition-colors">Terms</a></li>
+                <li><a href="/security" className="hover:text-luxury-text transition-colors">Security</a></li>
               </ul>
             </div>
           </div>
