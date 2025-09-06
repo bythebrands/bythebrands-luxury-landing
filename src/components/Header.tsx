@@ -7,27 +7,30 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-xl font-semibold text-luxury-text tracking-tight">
+            <a href="/" className="text-2xl font-serif text-luxury-text tracking-tight font-bold">
               By The Brands
             </a>
           </div>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="/brands" className="text-luxury-text-light hover:text-luxury-text transition-colors">
+            <a href="/" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
+              Home
+            </a>
+            <a href="/shop" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
+              Shop
+            </a>
+            <a href="/brands" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
               Brands
             </a>
-            <a href="/categories" className="text-luxury-text-light hover:text-luxury-text transition-colors">
-              Categories
+            <a href="/about" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
+              About
             </a>
-            <a href="/deals" className="text-luxury-text-light hover:text-luxury-text transition-colors">
-              Deals
-            </a>
-            <a href="/blog" className="text-luxury-text-light hover:text-luxury-text transition-colors">
-              Blog
-            </a>
-            <a href="/contact" className="text-luxury-text-light hover:text-luxury-text transition-colors">
+            <a href="/contact" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
               Contact
+            </a>
+            <a href="/join-us" className="text-luxury-text-light hover:text-luxury-text transition-colors font-serif">
+              Join Us
             </a>
           </nav>
 
