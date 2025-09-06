@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nike",
+    "name": "Nike",
+    "slug": "nike",
+    "category": "Fashion",
+    "logo": "/images/brands/nike-logo.svg",
+    "description": "Just Do It. The world's leading athletic brand.",
+    "tagline": "Bringing inspiration and innovation to every athlete in the world.",
+    "color": "#000000",
+    "website": "https://nike.com",
+    "featured": true
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "slug": "apple",
+    "category": "Electronics",
+    "logo": "/images/brands/apple-logo.svg",
+    "description": "Think Different. Innovation that changes everything.",
+    "tagline": "The future is here. Experience the magic of Apple.",
+    "color": "#000000",
+    "website": "https://apple.com",
+    "featured": true
+  },
+  {
+    "id": "gucci",
+    "name": "Gucci",
+    "slug": "gucci",
+    "category": "Luxury",
+    "logo": "/images/brands/gucci-logo.svg",
+    "description": "Italian luxury fashion house since 1921.",
+    "tagline": "Redefining modern luxury with Italian craftsmanship.",
+    "color": "#006341",
+    "website": "https://gucci.com",
+    "featured": true
+  },
+  {
+    "id": "sephora",
+    "name": "Sephora",
+    "slug": "sephora",
+    "category": "Beauty",
+    "logo": "/images/brands/sephora-logo.svg",
+    "description": "Beauty for every story. Discover the latest trends.",
+    "tagline": "The beauty authority empowering your unique beauty.",
+    "color": "#000000",
+    "website": "https://sephora.com",
+    "featured": true
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "slug": "samsung",
+    "category": "Electronics",
+    "logo": "/images/brands/samsung-logo.svg",
+    "description": "Next is Now. Leading innovation in technology.",
+    "tagline": "Inspire the world, create the future.",
+    "color": "#1428A0",
+    "website": "https://samsung.com",
+    "featured": false
+  },
+  {
+    "id": "adidas",
+    "name": "Adidas",
+    "slug": "adidas",
+    "category": "Fashion",
+    "logo": "/images/brands/adidas-logo.svg",
+    "description": "Impossible is Nothing. Performance meets style.",
+    "tagline": "Through sport, we have the power to change lives.",
+    "color": "#000000",
+    "website": "https://adidas.com",
+    "featured": false
+  },
+  {
+    "id": "rolex",
+    "name": "Rolex",
+    "slug": "rolex",
+    "category": "Luxury",
+    "logo": "/images/brands/rolex-logo.svg",
+    "description": "A Crown for Every Achievement. Swiss luxury watches.",
+    "tagline": "Perpetual excellence. A crown for every achievement.",
+    "color": "#006341",
+    "website": "https://rolex.com",
+    "featured": true
+  },
+  {
+    "id": "chanel",
+    "name": "Chanel",
+    "slug": "chanel",
+    "category": "Beauty",
+    "logo": "/images/brands/chanel-logo.svg",
+    "description": "Luxury fashion and beauty from the iconic French house.",
+    "tagline": "Fashion fades, only style remains eternal.",
+    "color": "#000000",
+    "website": "https://chanel.com",
+    "featured": false
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "slug": "sony",
+    "category": "Electronics",
+    "logo": "/images/brands/sony-logo.svg",
+    "description": "Be Moved. Innovation in entertainment technology.",
+    "tagline": "Be moved by the power of technology and creativity.",
+    "color": "#000000",
+    "website": "https://sony.com",
+    "featured": false
+  },
+  {
+    "id": "louis-vuitton",
+    "name": "Louis Vuitton",
+    "slug": "louis-vuitton",
+    "category": "Luxury",
+    "logo": "/images/brands/lv-logo.svg",
+    "description": "Since 1854. The art of travel and luxury craftsmanship.",
+    "tagline": "L'art du voyage. The art of travel, refined to perfection.",
+    "color": "#8B4513",
+    "website": "https://louisvuitton.com",
+    "featured": true
+  }
+]
