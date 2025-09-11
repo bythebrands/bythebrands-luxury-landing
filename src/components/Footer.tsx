@@ -133,15 +133,25 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Quick Links */}
+            {/* Shop */}
             <div>
-              <h5 className="font-serif font-medium text-luxury-text mb-4">Quick Links</h5>
+              <h5 className="font-serif font-medium text-luxury-text mb-4">Shop</h5>
               <ul className="space-y-2">
-                <li><a href="/about" className="text-luxury-text-light hover:text-luxury-text transition-colors">About</a></li>
+                <li><a href="/shop" className="text-luxury-text-light hover:text-luxury-text transition-colors">Shop</a></li>
                 <li><a href="/brands" className="text-luxury-text-light hover:text-luxury-text transition-colors">Brands</a></li>
                 <li><a href="/deals" className="text-luxury-text-light hover:text-luxury-text transition-colors">Deals</a></li>
+                <li><a href="/categories" className="text-luxury-text-light hover:text-luxury-text transition-colors">Categories</a></li>
                 <li><a href="/blog" className="text-luxury-text-light hover:text-luxury-text transition-colors">Blog</a></li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div>
+              <h5 className="font-serif font-medium text-luxury-text mb-4">Company</h5>
+              <ul className="space-y-2">
+                <li><a href="/about" className="text-luxury-text-light hover:text-luxury-text transition-colors">About</a></li>
                 <li><a href="/contact" className="text-luxury-text-light hover:text-luxury-text transition-colors">Contact</a></li>
+                <li><a href="/partner" className="text-luxury-text-light hover:text-luxury-text transition-colors">Partner Program</a></li>
               </ul>
             </div>
 
