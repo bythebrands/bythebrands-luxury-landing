@@ -9,8 +9,8 @@ export interface AnalyticsConfig {
 }
 
 export const ANALYTICS_CONFIG: AnalyticsConfig = {
-  GTM_ID: process.env.GTM_ID || 'GTM-XXXXXXX',
-  GA_MEASUREMENT_ID: process.env.GA_MEASUREMENT_ID || 'G-XXXXXXX'
+  GTM_ID: import.meta.env.VITE_GTM_ID || 'GTM-XXXXXXX',
+  GA_MEASUREMENT_ID: import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-XXXXXXX'
 };
 
 /**
