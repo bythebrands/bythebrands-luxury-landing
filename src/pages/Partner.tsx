@@ -47,7 +47,7 @@ const Partner = () => {
       localStorage.setItem('partner_applications', JSON.stringify(existingPartners));
 
       // In production, this would submit to Netlify Forms or webhook
-      // const response = await fetch(process.env.CONTACT_WEBHOOK, { ... });
+      // const response = await fetch(import.meta.env.VITE_CONTACT_WEBHOOK, { ... });
 
       trackFormSubmission('partner_application', true);
       trackEvent('partner_application_submitted', {

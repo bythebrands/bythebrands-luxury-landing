@@ -28,7 +28,7 @@ const Footer = () => {
       localStorage.setItem('newsletter_emails', JSON.stringify(existingEmails));
 
       // In production, this would post to Mailchimp or your newsletter service
-      // const response = await fetch(process.env.MAILCHIMP_FORM_ACTION, { ... });
+      // const response = await fetch(import.meta.env.VITE_MAILCHIMP_FORM_ACTION, { ... });
       
       trackNewsletterSignup(email);
       trackFormSubmission('newsletter', true);

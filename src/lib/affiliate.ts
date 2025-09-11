@@ -11,7 +11,7 @@ export interface AffiliateLink {
 }
 
 export const AFFILIATE_CONFIG = {
-  TRACKER_ID: process.env.AFFILIATE_TRACKER || 'BYTHEBRANDS',
+  TRACKER_ID: import.meta.env.VITE_AFFILIATE_TRACKER || 'BYTHEBRANDS',
   BASE_PARAM: 'aff_id',
   FALLBACK_URL: 'https://affiliate-placeholder.com'
 };
